@@ -2,8 +2,8 @@ from openai import AzureOpenAI
 
 deployment_name = "gpt-5-mini"
 # Use the alternative standard Azure OpenAI resource endpoint and key from cell qh-BHZ7lOvyX
-endpoint_clean = "https://24691a32j1-5906-resource.services.ai.azure.com/"
-api_key_clean = "9c0p2SccRQiuNCS5r9fciRyxOrPN4mE1ZzRtsqA5pBkCQMTxB2h3JQQJ99CKACF24PCXJ3w3AAAAACOGjgmy"
+endpoint_clean = "abcd"
+api_key_clean = "1234"
 
 client = AzureOpenAI(
     azure_endpoint=endpoint_clean,
