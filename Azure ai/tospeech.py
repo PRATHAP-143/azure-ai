@@ -6,8 +6,8 @@ import azure.cognitiveservices.speech as speechsdk
 from urllib.parse import urlparse
 
 # Using the functional credentials from the previous step
-endpoint_url = "https://24691a32j1-5906-resource.cognitiveservices.azure.com/"
-speech_key = "9c0p2SccRQiuNCS5r9fciRyxOrPN4mE1ZzRtsqA5pBkCQMTxB2h3JQQJ99CKACF24PCXJ3w3AAAAACOGjgmy"
+endpoint_url = "abcd"
+speech_key = "1234"
 
 parsed = urlparse(endpoint_url)
 base_endpoint = f"{parsed.scheme}://{parsed.netloc}"
